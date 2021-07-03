@@ -125,7 +125,6 @@ func main() {
 	if wd != "" {
 		resetWorkDir()
 	}
-	log.Info("Test Cache using")
 	var byteKey []byte
 	arg := os.Args
 	if len(arg) > 1 {
